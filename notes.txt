@@ -1,3 +1,8 @@
+
+## Links
+########################### 
+
+
 Pluralsight Google Cloud Digital Leader Training
 https://app.pluralsight.com/paths/vertificate/google-cloud-digital-leader-training
 
@@ -6,3 +11,143 @@ https://app.pluralsight.com/library/courses/introduction-digital-transformation-
 
 Innovating with Data and Google Cloud
 https://app.pluralsight.com/library/courses/innovating-data-google-cloud-4
+
+Infrastructure and Application Modernization with Google Cloud
+https://app.pluralsight.com/library/courses/infrastructure-application-modernization-google-cloud-1
+
+Understaning Google Cloud Security and Operations
+https://app.pluralsight.com/library/courses/understanding-google-cloud-security-operations-4
+
+
+Certifcation Overview
+https://cloud.google.com/learn/certification/cloud-digital-leader
+
+
+
+
+
+
+
+#############################################################################
+## Introduction to Digital Transformatin with Google Cloud
+#############################################################################
+
+## Introduction 
+## 
+
+
+## Why cloud technology is revolutionizing business
+## 
+
+# What is cloud
+    - network of datacenters >> "cloud"
+    - leverage global scale compute and data platforms
+
+# Danger of maintaining the status quo
+    - burning platform effect 
+    - adopt new technology and execute paradigm shift
+    nintendo: from card games to video games
+    vs. encyclopedia (to wikipedia)
+
+# Paradigm shift
+    - shifts CapEx to OpEx
+    - smart assistants
+    - IoT
+    - Analytics >> Predictions >> intent
+
+# Extraordinary compute power
+    -  TPU: Tensor Processing Unit (1 day to 30min)
+
+# Data as currency
+    - machine learning
+
+
+
+## Digital Transformation with Google Cloud
+## 
+
+# Enhancing productivity and collaboration
+    - size and scale is not a differentiator (due to cloud)
+    - culture and technology 
+        - allow failure
+        - provide tools
+
+# Modernizing IT infrastructure
+    3 focus areas
+    - infrastructure
+            - legacy to cloud
+            - cloud compute
+    - business platforms
+    - applications
+
+
+# Modernizing business platforms and applications
+    - business platforms
+        -  enable integration between systems and enable access
+        -  API
+    - applications
+        - software to allow tasks
+        - DevOps
+
+# Unlocking the value of data
+    - capture and store and structure data for insight
+    - predictions / smart actions / insights
+    - storage and data management
+    - ML / AI
+        - predictive maintenance
+        - realtime behaviou data
+        - medicine
+
+
+# Using a new built-in security model
+    - security / shared responsibility security 
+    - regulations
+
+# Google Cloud solutions for digital transformation
+    - Infrastructure modernization
+        - onprem to cloud
+        - rehost / replatform
+    - Business app platform
+        - APIs, automation
+            - Apogee 
+            - Cloud Endpoints
+
+    - Application modernization
+        - faster innovation 
+
+    - Database and storage solutions
+        - Enterprise data / security / manager
+        - Cloud Spanner / Cloud SQL / Firestore
+
+    - Smart Analytics 
+        - data insights 
+        - serverless
+            - Big Query: serverless datawarehouse
+            - Looker: business intelligence
+    - Artificial Intelligence
+        - integrate into company existing workflow
+
+    - Security
+        - Protect / Detect / Investigate
+
+    Google Cloud Adoption Framework
+    cloud.google.com/adoption-framework
+
+
+## Scaling the innovation mindset 
+## 
+
+# Introduction
+    - culture is key
+# Focus areas ofor culture transformation
+# Scale the innovation mindset
+# Think 10X
+# Launch and iterate
+# Example
+
+
+
+
+
+
+.
