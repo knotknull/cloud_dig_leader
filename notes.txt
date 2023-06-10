@@ -139,11 +139,132 @@ https://cloud.google.com/learn/certification/cloud-digital-leader
 
 # Introduction
     - culture is key
-# Focus areas ofor culture transformation
+
+# Focus areas for culture transformation
+    - Six focus areas 
+        - Talent
+                - people
+        - Environment
+                - work env
+                - enable innovation
+        - Structure
+                - blueprint for programs / tasks
+                - self organization
+        - Strategy
+                - direction / purpose / mission (?)
+        - Empowerment
+                - enable employees
+                - autonomy / independence / responsibility
+                        -->> can increase motiviation
+                                ->> central to creating a culture of innovation  ## TAKE NOTE
+        - Innovation
+            - embrace new technolgoy
+            - new methods / process
+            innovation is a balance between freedom and constraint  ## TAKE NOTE
+
+
 # Scale the innovation mindset
+    3 Rules 
+        - Focus on user / customer 
+        - Think 10x
+        - Launch and iterate (Continuous Learning)
+
+    Focus on user:
+        - includes employees 
+
+    User Expectation
+        - Access         --------------+
+              - Faster / Always On     |
+        - Engagement                   |______  What Does Customer Expect
+              - Valued Content         |
+        - Customization                |
+           - Adaptable Product/Service |
+        - Communication                |
+           - 2-way feedback            |
+                - including employees  |
+                          -------------+
+
 # Think 10X
+    - transformation over improvement 
+
 # Launch and iterate
+    - constinuous learning 
+        - fail fast
+    - figure out solution from by iterating / experimentation
+        - don't look for perfect solution first
+        - try -> learn -> try
+    - correlation between innovative teams and high psychological safety ratesa ## TAKE NOTE
+            - ask questions, take risks, challenge each other, build
+
+    More Ideas You Try, The More You Learn
+
 # Example
+    - Banking 
+
+
+What is your Why?
+How meeting user expectations ?
+How to use technology to serve users 10X ?
+How can launch and interate more often?
+
+Summary
+
+- cloud compute + new / large amounts of data == new value
+- early adopters are disrupting
+- realtime / anywhere services
+
+
+
+#############################################################################
+## Innovating with Data and Google Cloud
+#############################################################################
+
+
+
+## The Value of Data 
+## 
+
+#  The role of data in digital transformation
+LAST HERE
+
+
+
+
+#  Leveraging data in your organization
+#  Understanding data types
+#  Important data considerations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Data Consolidation and Analytics
+## 
+
+
+
+
+## Innovation with Machine Learning
+## 
+
+
+
+## Summary 
+## 
+
+
+
+
 
 
 
