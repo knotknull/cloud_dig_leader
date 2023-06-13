@@ -225,47 +225,249 @@ Summary
 ## 
 
 #  The role of data in digital transformation
-LAST HERE
+Data == any information used by a business
 
-
-
+- cloud offers:
+    - economies of scale
+    - rapid elasticity
+    - automation
+    - data access
 
 #  Leveraging data in your organization
+
+ - identify and map data
+ data map: data in end to end business process
+    - user data     : transactions, returns, footfall
+    - corporate data: staffing, delivery, sales, staff structures
+    - industry data : trends, purchasing patterns, research papers
+
+Action:  look at intersections of data sets
+
+
 #  Understanding data types
+    Structured
+        - organized 
+        - can be put in database
+    Unstructured
+        - unorganized
+            - documents, audio, images, videos
+        - can be stored as objects  >> BLOB
+            - data
+            - metadata
+            - identifier
+
+    Bloomberg >> translates using Google Translate
+
+
 #  Important data considerations
-
-
-
-
-
-
-
-
-
-
-
-
+    - responibly capture data
+    - Watch for human bias!!
 
 
 
 ## Data Consolidation and Analytics
 ## 
 
+#  Migrating data to the cloud
+    Greater Data ROI when in cloud (?)
+
+    on prem:    
+        - costly
+        - inelastic
+
+    cloud :    
+        - rent compute / storage
+        - elastic
+        - real-time ingestion
+        - TB of data
+
+#  Cloud Databases
+    - organized collection of data / tables 
+    - scale
+    - integrity
+
+    - Cloud SQL
+        - fully managed RDBMS 
+        - storage scales automatically
+
+    - Cloud Spanner
+        - fully managed database service 
+        - global scale
+        - data automatically copied across regions
+        - strong consistency
+        - enterprise grade security
+
+#  Cloud Datawarehouses
+    - assemble data from multiple sources
+    - analysis of large / multi-dimensional datasets
+
+    - Big Query
+        - fully managed datawarehouse
+        - maintenance / scaling
+        - petabytes
+        - serverless    
+            - compute is provided automatically at query time   
+                - do not pay for compute when not running queries
+
+    - Pub/Sub
+        - ingestion of data
+
+    - Dataflow
+        - processing of data
 
 
+#  Cloud Data lakes 
+    - repository for structure, semi-structure, unstructured data 
+        -      structured: Cloud SQL, Cloud Spanner, Big Query
+        - semi-structured: Cloud Datastore, Cloud Bigtable
+        -    unstructured: Cloud Storage
+
+    Cloud Storage: 
+        - BLOBs
+        - unlimited data / no minimum
+        - low latency
+        - multi-regional storage
+            - geographically dispersed data
+        - regional storage
+            - geographically local data
+        - nearline: access 1x per month
+        - coldline: access 1x per 90 days
+        - archive:  access 1x per year
+
+#  Business Intelligence solutions
+    - Looker: BI solution   
+        - sits on top of analytics db
+
+
+    - ex. gaming analytics 
+        - features used
+        - where players stuck
+        - player lifetime value
+
+    - Looker can utilize data warehouses i.e. Big Query
 
 ## Innovation with Machine Learning
 ## 
 
+#  What is machine learning?
+
+ Artificial Intelligence: machine capable of task that normally requires human intelligence
+    - visual perception 
+    - speech recognition
+    - translation
+
+ Machine Learning: computers that learn from data, make predictions, decisions without 
+          being programmed to do so.  Algorithms to analyze data.
+
+
+ML: Standard Algorithms  / Models to analyze data to derive predictive insights make repeated decisions at scale  
+    Teach computer to solve problems by feeding correct answers
+
+
+#  Data Quality
+    - qualities of good data
+        - coverage: scope and all possible scenarios
+        - clean   : data consistency
+                i.e. dirty data:  various timestamp formats
+        - complete: availability of sufficient data to replace human knowledge
+                incomplete (missing) data can affect model performance
+
+
+#  AI and ML with Google Cloud
+
+    Do you have your own training data ?
+        +----> NO:  Pre-trained APIs
+        |
+        +----> Yes --->  Are you wirting the model code yourself?
+                                    +----> No  ---> AutoML (Vertex AI)
+                                    |
+                                    +----> Yes ---> Custom Model tooling (Vertx AI)
+
+    - Pre-trained APIs
+        -  ML models for analyzing: images, videos, text
+                - can be deployed to: on-prem, private cloud, google cloud 
+
+        4 Types:
+            - sight:
+                - Vision API: pre-trained models to detect: faces, objects, text, sentiment
+                                    - use Vision API to assign labels to images + classify
+            - language
+                - Natual Language API: discovers syntax, entities and sentiment  + classifies (complaints, praise, more info)
+
+            - conversation
+            - structured data
+
+        Vertex uses google cloud services to build ML under one unified UI 
+            - train existing ML model
+            - build custom ML model
+
+
+    AutoML (Vertex AI):  Apply data to existing pre-trained model
+            - train  / test / deploy without code
+
+
+    AutoML Natual Language
+        - build / deploy custom ML models that:
+                - analyze and categorize documents 
+                - identify entities
+                - asses attitudes (sentiment ?)
+
+    Google Cloud AI Hub
+        - repo of plug and play AI components
+
+    AI Solutions for specific business needs:
+        - Contact Center AI
+        - Document AI
+        - Talent Solutions: job search + talent acquisition
+
+    Google AI Foundational Infrastructure:
+        - TensorFlow: Open Source ML platform 
+
+
+    Tensor Processing Units: TPUs
+        - Haredware to accelerate ML workloads: 15 - 30x acceleration
+
+
+
+         [--]       <<-- Machine Learning :  ML + Data Science + Prototyping / Experiments
+      [-------]     <<-- Data Analytics   :  Data Lakes + Data warehouses
+    [------------]  <<-- IT Infrastructure:  Apps + Data Management
+
+
+
+#  Real-world use cases for ML
+
+    - 4 Common ML Business Problems     
+        1. Replacing rule-based systems
+        2. Automating processes
+        3. Understanding unstructured data 
+        4. Personalizing applications 
+
+  Rule-based systems i.e. Search
+    - RankBrain (ML)
+        - continually improve
+
+
+  Automated processing 
+    - sale handover
+        - Google Speech to Text API
+
+
+  Understanding unstructured data  (images, video, audio)
+    - Ocado routes emails bases on natual language processing (NLP) 
+
+
+  Personalizing applications
+    - YouTube
+        - recommendations, etc.
+    - product recommentations
 
 
 ## Summary 
 ## 
 
 
-
-
-
+Wherever there is data, there is inherent human bias  
 
 
 
