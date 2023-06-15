@@ -466,11 +466,159 @@ ML: Standard Algorithms  / Models to analyze data to derive predictive insights 
 ## Summary 
 ## 
 
-
 Wherever there is data, there is inherent human bias  
 
 
+#############################################################################
+## Infrastructure and Application Modernization with Google Cloud
+#############################################################################
+
+## Modernizing IT Infrastructure with Google Cloud
+## 
+
+# Infrastructure Modernizaton
+ - On Prem / Legacy is not a differentiator 
+    - Colocation:  rent part of a datacenter
+
+  Virtual Machine: 
+    - better use of resources
+    - still a physical capacity limit
+
+  Cloud:
+    - Infrastructure as a Service
+    - Planform as a Service
 
 
+# Understanding compute options in the cloud
+ Cloud:
+   - on demand self services
+   - broad network access
+   - resource pooling
+   - rapid elasticity
+   - measured service
+
+ 3 Ways to mondernize Infrastructure 
+   - VM 
+   - Containers
+   - Serverless
+
+ Hypervisor: between physical and virtual machines
+
+ Container virtualizes the OS
+     - more lightweight
+     - less memory
+     - predicatble env
+
+Kubernetes: open source cluster management system
+            automated container orchestration
+            - improve app reliability
+            - faster / agile app development
+
+serverless computing
+    - provisioned automatically
+
+
+# Hybrid and multi cloud
+ - private cloud: VMs in a private data center
+ - hybrid cloud : Combo of private and public
+ - multi cloud  : multiple public cloud providers
+ 
+
+ Open APIs:
+    - Cloud Bigtable
+    - Cloud Dataproc
+
+ Open Source:
+    - TensorFlow
+    - Kubernetes
+
+Anthos:
+    - build once, run everywhere (really ??)
+
+Network:
+ - secure / 40% of world's traffic daily
+ - global network 
+   - 200 countries 
+   - 20  regions 
+   - 130 points of access
+
+ Google cloud matches datacenter with renewable energy
+    - reduces CO2 for computing
+
+
+# Google Cloud Compute Solutions
+
+VM:
+    - Compute Engine 
+        - VMs
+            - ex. Spotify used Compute Engine to scale
+
+    - Google Cloud VMWare Engine 
+       - managed VMWare service
+            - manages infrastructure, networking management services
+            - ex. Deutsche Borse Group
+                - new private cloud in 40 minutes
+
+    - Bare Metal 
+        - 
+
+Conainer
+    - Google Kubernetes Engine (GKE)
+        - deploy / manage / scale
+        - cluster of compute engine instances 
+
+
+Serverless computing
+    - AppEngine 
+        - Platform as a Service / Cloud Computing Platform 
+            - develop and host web apps
+        - managed serverless platform
+            - ex. IDEXX: VetConnect 
+
+    - CloudRun 
+        - build and deploy any langs
+        - instantly scale up and down
+            - ex. Veolia 
+
+    - CloudFunctions 
+        - build and connect cloud services
+        - Function as a Service
+            - zero server management  
+            - ex. Lucille Games
+
+
+## Modernizing Applications with Google Cloud
+## 
+
+
+# Cloud Change Patterns
+
+
+# Challenges in app dev
+# Google Kubernetes Engine
+# App Engine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## The Value of APIs
+## 
+
+
+## Summary 
+## 
 
 .
