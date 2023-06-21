@@ -740,14 +740,59 @@ control:
 ## 
 
 # Fundamental terms: Privacy, security, compliance and availability
-    - privacy:  data individual has access to and what they 
+    - privacy   :  data individual has access to and who they can share with
+    - security  :  policies procedures and controls to keeep data safe
+    - compliance:  meeting 3rd Party standards (healtchare, banking )
+    - availability:  how much time data / service is available 99.999%
 
-LAST HERE
+
+1. You own your data, not Google
+2. Google doesn't sell customer data to 3rd parties 
+3. All customer data is encypted by default
+4. Google Cloud guards against insider access to your data
+5. Google never gives any government entity backdoor access to your data
+6. Privacy practices are audited against international standards
 
 
 # Today's top security challengues
+    - phishing attacks
+    - physical damage
+    - malware / ransomware
+    - unsecured 3rd party systems
+    - misconfiguration
+
 # Shared Responsibility Model - Part I
+   cloud processes data / organization is responsible to control data 
+    - customer responsible for access to data
+    - cloud provider responsible for physical infrastructure 
+
+    Google Multilayer Security
+        - 124 points of presence 
+        - 24 data center regions 
+            - hardware
+                - designs own servers, storage, networking
+            - software
+                - titan monitors software stack
+            - storage
+                - encryption at rest
+                    - data split into chunks and encrypted with own key (DEK: Data Encryption Key)
+                    - Data Encryption Keys are encrypted a 2nd time (wrapped) with another key (KEK: Key Encryption Key)
+                  NOTE: if one chunk is compromised,  data is unreadable without other "chunks"
+            - identity
+                - zero trust model 
+            - encryption in transit
+            - operations
+                - system monitored 24/7
+
+
 # Shared Responsibility Model - Part II
+
+
+
+
+
+
+
 # Identity and access magemenentt
 # Resource hierarchy
 
