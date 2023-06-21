@@ -600,7 +600,7 @@ Serverless computing
     3. Invent in greenfield 
             - new infra in cloud  
     4. Invent in brownfield 
-            - change in cloud, replace on prem
+            - build in cloud, replace on prem when ready
     5. Move apps without any changes 
             - lift / shift 
             - upgrade infra only (more storage)
@@ -635,22 +635,59 @@ ex. EDP: power utility
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 ## The Value of APIs
 ## 
 
+# Legacy System Challenges
+    ex. HR / Banking /  Government /  DB / Datawarehouse
+    - Does not integrate with IoT or Mobile
+    - Batch based
 
-## Summary 
-## 
+# How APIs can modernize legacy systems
+     -  software that enable integration between systems / services
+     -  unlock value without rearchitecting / rebuilding
+
+# Using APIs to create new business vlaue
+    - digital ecosystem 
+    - create / monetize services
+
+ex. Walgreens 
+    - Photo development
+        - film to phone printing
+    - Created APIs to print from phone
+    - API was a product
+
+ex. Monex 
+    - financial services
+    - API to simplify creating new services
+    - Published API
+    - Couldn't handle onprem / used Apigee
+
+# Apigee
+    - legacy system of record cannot keep up with rate of change for apps
+
+        - secure
+        - scale
+        - manage
+        - connect
+        - analyze
+
+    Apigee:
+        - API Services
+        - Developer Services
+        - Analytics Services
+
+    ex.  Chile Ministry of Health
+        - lacked integration
+        - built out APIs
+        - used Apigee
+            - reduced costs
+
+
+#############################################################################
+## Understanding Google Cloud Security and Operations
+#############################################################################
+LAST HERE
+
 
 .
