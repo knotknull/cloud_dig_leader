@@ -691,16 +691,72 @@ ex. Monex
 ## Financial Governance in the Cloud
 ## 
 
-LAST HERE
-
 # Fundamentals of cloud cost management
+
+- Cap Ex to Op Ex
+- Monitoring is ongoing / daiiy
+- Budget is continual
+
+People
+Process
+Technology
+
+- partnership of finance / tech / business
+
+- GCP native cools for cost monitoring
+
+
 # Total cost of ownership
+Cap Ex: Space, Utils, Hardware, Software, Network, etc.
+
+Op Ex: Pay as you go 
+Value: Cloud handles support for Infra
+
+
 # Best practices for managing Google Cloud costs
 
+1. Identify team that will manage costs
+2. Learn difference between invoice / cost tools
+3. Cost Management tools for accountability
+
+ - Console has Cost Management Tools
+
+    - visibility 
+    - accountability
+    - control
+    - intelligence
+
+- built-in reporting tools
+- custom dashboards
+- pricing calculator
+
+control: 
+    - authorized individuals to deploy 
+    - budgets 
+    - alerts 
 
 
 ## Security in the cloud
 ## 
+
+# Fundamental terms: Privacy, security, compliance and availability
+    - privacy:  data individual has access to and what they 
+
+LAST HERE
+
+
+# Today's top security challengues
+# Shared Responsibility Model - Part I
+# Shared Responsibility Model - Part II
+# Identity and access magemenentt
+# Resource hierarchy
+
+
+
+
+
+
+
 
 ## Monitoring Cloud IT Services and Operations
 ## 
