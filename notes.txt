@@ -592,14 +592,46 @@ Serverless computing
 
 
 # Cloud Change Patterns
+5 Patterns:
+    1. Move apps first and then change them later
+            - lift / shift / change
+    2. Change apps before they move
+            - make modernization changes on prem first
+    3. Invent in greenfield 
+            - new infra in cloud  
+    4. Invent in brownfield 
+            - change in cloud, replace on prem
+    5. Move apps without any changes 
+            - lift / shift 
+            - upgrade infra only (more storage)
+            - DR
 
 
 # Challenges in app dev
-# Google Kubernetes Engine
+    - on prem problems > cloud problems
+    - cloud == NO LEGACY
+    - decompose monoliths to microservices
+    - CI / CD
+    - High Velocity Delivery
+
+# Google Kubernetes Engine (GKE)
+    - kubernetes: container orchestration system / Open Source
+        - deployment 
+        - scaling 
+        - management
+
+GKE: Google Managed Service for Containers
+    - deploy / update / manage 
+
+
 # App Engine
+     - scalable web apps and mobile backends 
+     - infrastructure is managed ( no servers )
+     - App Engine will scale depending on traffic
 
-
-
+ex. EDP: power utility 
+         > 400 apps
+        legacy mobile app migrated to App Engine
 
 
 
