@@ -687,7 +687,25 @@ ex. Monex
 #############################################################################
 ## Understanding Google Cloud Security and Operations
 #############################################################################
+
+## Financial Governance in the Cloud
+## 
+
 LAST HERE
 
+# Fundamentals of cloud cost management
+# Total cost of ownership
+# Best practices for managing Google Cloud costs
+
+
+
+## Security in the cloud
+## 
+
+## Monitoring Cloud IT Services and Operations
+## 
+
+## Summary
+## 
 
 .
