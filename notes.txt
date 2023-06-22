@@ -786,17 +786,56 @@ control:
 
 
 # Shared Responsibility Model - Part II
+customers responsibility
+    - IT Teams must know who can access what data
+        - granular access policies
+        - enable MFA 
+             - security key
+
+    - IT Teams must have visibility into what and when
+        - monitoring and logging
+
+    - How to manage a breach
+        - situational awareness
+        - culture of stressful situations
+        - operational readiness
 
 
+# Identity and Access Management
+    - Cloud Identity: Google IAM
 
+    - IAM Policy 
+        - who
+            - google account 
+            - google group 
+            - service account
+            - cloud identity / google workspace
+        - can do what
+            - IAM Role
+            - 3 types:
+                - Primitive (broad roles)
+                    - Owner
+                    - Editor
+                    - Viewer
+                - Predefined
+                    - collection of permissions
+                        - Compute Engine: 
+                                - project
+                                - folder
+                                - organization
+                        - Cloud Big Table : 
+                                - organization
+                                - project
+                                - individual db instance
+                - Custom
+                    - least priveleged model
+                    - i.e. start / stop VMs
+            - Map groups to access
+        - on which resource
 
-
-
-
-# Identity and access magemenentt
 # Resource hierarchy
 
-
+LAST HERE
 
 
 
