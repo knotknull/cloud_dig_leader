@@ -835,17 +835,167 @@ customers responsibility
 
 # Resource hierarchy
 
-LAST HERE
+    Project: enabling and managing services / APIs
+    
+    Resource:  Any Cloud Service
+        - Compute Engine / Big Query 
+
+    Folder:  Can contain projects or folders
+            - projects can be grouped into hierarchy via folders
 
 
+                 Domain  (via Cloud Identity)
+                    | 
+                Organization (via cloud console)
+                    | 
+    +---------------| 
+    |               | 
+Cloud Billing     Folder  (projects grouped under folder) 
+  Account           | 
+                    | 
+                Projects  (projects belong to org / inherit perms from folders and org)
+                    | 
+            buckets, VMs, BigTable
 
 
+  (Payment Profile)<---->(Cloud Billing Account)   
+                            (lives under org)
+
+NOTE: Folders and projects have perms
+
+Cloug Billing Account Roles:
+        - Users :  Associate projects 
+                   View Spend
+
+        - Admins:  Unlink projects 
+                   Set Budgets
+                   Contact Support
+
+
+Payment Profile:
+    - Google level resource
+    - outside of Google Cloud
+    - Pay for all Google Services: cloud, ads, licenses
 
 
 ## Monitoring Cloud IT Services and Operations
 ## 
 
+# IT Dev and ops challengues 
+
+    - updates
+    - maintenance
+    - outages
+
+Service Availability:
+    - adjust for < 100% availability
+    - Standad Practices
+        - Service Level Agreement
+            - contractual agreement between cloud provider and customer
+        - Service Level Objectives
+            - Goal for service performance level
+                - response time or availability 
+        - Service Level Indicators
+                - measure of service provided 
+                    - errors, etc.
+
+Error Budget: amount of error that a service provider can accumulate of a period of time
+    - Space between SLA and SLO
+                                             SLO             SLA
+                                              |               |
+                                              |    Error      |
+                                              |    Budget     |
+                                              |               |
+ Response Time  0 --------- 100 ms --------- 200ms --------- 300 ms     
+
+
+# DevOps and SRE
+
+5 objectives of DevOps
+  1. Reduce silos
+  2. Accept failure as normal
+  3. Implement gradual change
+  4. Leverage tooling / automation
+  5. Measure everything
+
+Site Reliability Engineering
+
+    - Principals of software engineering to Ops 
+
+    Best Practices
+    - shared ownership (to reduce silos)
+
+    - accept failure as normal  
+        - blameless lessons learned
+
+    - reduce cost of failure 
+        - roll out change to small percentage first
+        - prototyping 
+        - launching iteratively 
+
+    - Toil automation
+        - reduces manual repetitive work
+
+    - Track: 
+        - toil
+        - reliability
+        - system health
+
+# Google Cloud resource monitoring tools
+
+GCP Operations Suite
+    - Ops focused 
+        - Cloud Monitoring
+        - Cloud Logging
+        - Error Reporting
+        - Service Monitoring
+
+    - App Performance Mgmt tools 
+        - Cloud Debugger 
+        - Cloud Trace 
+        - Cloud Profiler 
+
+
+    Cloud Monitoring
+        - pre-defined sets of metrics, events, alerts
+            - all google cloud metrics and zero cost
+
+    Cloud Logging
+        - managed service
+        - observability
+        - ingests audit / platform logs
+
+    ALL Google Cloud Services stream metrics and logs to 
+        - Cloud Monitoring 
+        - Cloud Logging 
+
+    Cloud Debugger
+        - Monitors App performance
+            - monitor in real time
+
+    Cloud Debugger
+        - Distributed Tracing system 
+        - Monitors app performance
+
+
 ## Summary
 ## 
+
+3 Operational Shifts 
+
+ 1. no longer build infrastructure
+    - CapEx to Op Ex
+
+ 2. Security
+    - from perimter to every layer of infrastructure stack
+
+ 3. Availability Shift 
+    from 100% to 99.999%
+    DevOps <----> SRE
+
+Cloud Digital Leader Certification
+Once you've completed all four courses, take advantage of the Cloud Digital Leader certification.
+Follow the instructions on the cloud certification path page to register for the exam.
+
 
 .
