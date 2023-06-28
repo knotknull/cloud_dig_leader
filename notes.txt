@@ -998,4 +998,272 @@ Once you've completed all four courses, take advantage of the Cloud Digital Lead
 Follow the instructions on the cloud certification path page to register for the exam.
 
 
+###############################################################################################################################################
+## Google Certifcation Overview
+###############################################################################################################################################
+
+https://cloud.google.com/learn/certification/cloud-digital-leader
+
+
+Exam Guide
+
+Section 1: 
+
+1.1 Digital Transformation with Google
+
+Why Cloud tech is transforming business
+
+benefit to digital transformation:
+    - scalable, flexible, agile, secure, cost-effective, strategic value 
+
+
+business transformation benefit to GOogle Cloud :
+    - intelligence, freedom, collaboration, trust, sustainable technology
+
+
+transformation cloud and digital transformation :
+    - app / infra modernization, data democratization, people connection, trusted transactions
+
+transition to cloud infra
+    - flexibility, scalability, reliability, elasticity, agility, TCO
+    CapEx to OpEx
+
+
+
+Compute Models:
+    - IaaS, PaaS, SaaS
+    - Shared responsibility model
+
+
+Section 2: Innovating with data and Google Cloud 
+    - data driven culture
+    - Google solutions for data management
+        - structured / unstructured
+    
+        -      structured: Cloud SQL, Cloud Spanner, Big Query
+        - semi-structured: Cloud Datastore, Cloud Bigtable
+        -    unstructured: Cloud Storage
+
+    - Google solutions for cloud analytics 
+            - Big Query: serverless datawarehouse
+            - Looker: business intelligence
+
+         [--]       <<-- Machine Learning :  ML + Data Science + Prototyping / Experiments
+      [-------]     <<-- Data Analytics   :  Data Lakes + Data warehouses
+    [------------]  <<-- IT Infrastructure:  Apps + Data Management
+
+    - Cloud Spanner
+        - fully managed database service 
+        - global scale
+
+    - Cloud SQL
+        - fully managed RDBMS 
+        - storage scales automatically
+
+
+    AI Solutions for specific business needs:
+        - Contact Center AI
+        - Document AI
+        - Talent Solutions: job search + talent acquisition
+
+        +----> Yes --->  Are you wirting the model code yourself?
+                                    +----> No  ---> AutoML (Vertex AI)
+                                    |
+                                    +----> Yes ---> Custom Model tooling (Vertx AI)
+
+
+Section 3: Infra and app modernization
+
+
+# Modernizing IT infrastructure
+    3 focus areas
+    - infrastructure
+            - legacy to cloud
+            - cloud compute
+    - business platforms
+    - applications
+
+
+# Google Cloud solutions for digital transformation
+    - Infrastructure modernization
+        - onprem to cloud
+        - rehost / replatform
+    - Business app platform
+        - APIs, automation
+            - Apogee 
+            - Cloud Endpoints
+
+    - Application modernization
+        - faster innovation 
+
+    - Database and storage solutions
+        - Enterprise data / security / manager
+        - Cloud Spanner / Cloud SQL / Firestore
+
+    - Smart Analytics 
+            - Big Query: serverless datawarehouse
+            - Looker: business intelligence
+    - Artificial Intelligence
+    - Security
+
+    Google Cloud Adoption Framework
+    cloud.google.com/adoption-framework
+
+
+
+ 3 Ways to mondernize Infrastructure 
+   - VM 
+   - Containers
+   - Serverless
+
+Kubernetes: open source cluster management system
+            automated container orchestration
+
+serverless computing
+
+# Hybrid and multi cloud
+ - private cloud: VMs in a private data center
+ - hybrid cloud : Combo of private and public
+ - multi cloud  : multiple public cloud providers
+ 
+ Open APIs:
+    - Cloud Bigtable
+    - Cloud Dataproc
+
+ Open Source:
+    - TensorFlow
+    - Kubernetes
+Anthos:
+    - build once, run everywhere (really ??)
+
+
+# How APIs can modernize legacy systems
+     -  software that enable integration between systems / services
+     -  unlock value without rearchitecting / rebuilding
+
+# Using APIs to create new business vlaue
+    - digital ecosystem 
+    - create / monetize services
+
+    Apigee:
+        - API Services
+        - Developer Services
+        - Analytics Services
+
+
+Section 4: Cloud Security and Ops
+
+# Fundamentals of cloud cost management
+
+- Cap Ex to Op Ex
+- Monitoring is ongoing / daiiy
+- Budget is continual
+
+People
+Process
+Technology
+
+# Best practices for managing Google Cloud costs
+
+1. Identify team that will manage costs
+2. Learn difference between invoice / cost tools
+3. Cost Management tools for accountability
+
+# Fundamental terms: Privacy, security, compliance and availability
+    - privacy   :  data individual has access to and who they can share with
+    - security  :  policies procedures and controls to keeep data safe
+    - compliance:  meeting 3rd Party standards (healtchare, banking )
+    - availability:  how much time data / service is available 99.999%
+
+   cloud processes data / organization is responsible to control data 
+
+    Google Multilayer Security
+        - 124 points of presence 
+        - 24 data center regions 
+            - hardware
+                - designs own servers, storage, networking
+            - software
+                - titan monitors software stack
+            - storage
+                - encryption at rest
+                    - data split into chunks and encrypted with own key (DEK: Data Encryption Key)
+                    - Data Encryption Keys are encrypted a 2nd time (wrapped) with another key (KEK: Key Encryption Key)
+                  NOTE: if one chunk is compromised,  data is unreadable without other "chunks"
+            - identity
+                - zero trust model 
+            - encryption in transit
+            - operations
+                - system monitored 24/7
+
+# Shared Responsibility Model - Part II
+customers responsibility
+    - IT Teams must know who can access what data
+        - granular access policies
+        - enable MFA 
+             - security key
+
+    - IT Teams must have visibility into what and when
+        - monitoring and logging
+
+    - How to manage a breach
+        - situational awareness
+        - culture of stressful situations
+        - operational readiness
+
+Resource Hierarchy
+                 Domain  (via Cloud Identity)
+                    | 
+                Organization (via cloud console)
+                    | 
+    +---------------| 
+    |               | 
+Cloud Billing     Folder  (projects grouped under folder) 
+  Account           | 
+                    | 
+                Projects  (projects belong to org / inherit perms from folders and org)
+                    | 
+            buckets, VMs, BigTable
+
+
+    - IAM Policy 
+        - who
+            - google account 
+            - google group 
+            - service account
+            - cloud identity / google workspace
+        - can do what
+            - IAM Role
+            - 3 types:
+                - Primitive (broad roles)
+                    - Owner / Editor /  Viewer
+                - Predefined
+                    - collection of permissions
+                        - Compute Engine: 
+                        - Cloud Big Table : 
+                - Custom
+                    - least priveleged model
+                    - i.e. start / stop VMs
+            - Map groups to access
+        - on which resource
+
+
+5 objectives of DevOps
+  1. Reduce silos
+  2. Accept failure as normal
+  3. Implement gradual change
+  4. Leverage tooling / automation
+  5. Measure everything
+
+
+LAST HERE:  Launch Sample Questions
+
+https://docs.google.com/forms/d/e/1FAIpQLSedAmf77MGS7FGEaylFzY51KtBd7kkIZJIMDsV5zSRSmpKIOA/viewform
+
+
+
+
+
+
+
+
 .
