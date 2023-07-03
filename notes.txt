@@ -973,7 +973,7 @@ GCP Operations Suite
         - Monitors App performance
             - monitor in real time
 
-    Cloud Debugger
+    Cloud Trace
         - Distributed Tracing system 
         - Monitors app performance
 
